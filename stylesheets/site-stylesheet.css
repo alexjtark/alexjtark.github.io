@@ -1,87 +1,149 @@
 html {
-  background: white;
+  background: #F14C38;
+
 }
 
 #header {
-  position: absolute;
-  background-color: limegreen;
-  width: 1200px;
-  height:200px;
+
+  background-color: white;
+  width: 80%;
+  height:150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #144955;
+
 }
 
+
 #links {
-  position: absolute;
-  background-color: grey;
-  width: 1200px;
+  position: relative;
+  background-color: white;
+  width: 100%;
   height: 50px;
-  top:200px;
-  color: white;
-  font-family: sans-serif;
-  font-size: 35px;
-  word-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #144955;
+  border-radius: 30px;
+  color: #25354A;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  text-align: center;
+
+  vertical-align: middle;
+  word-spacing: 25px;
+  margin-top: -95px;
+  margin-bottom: 10px;
+}
+
+#pagebody {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #144955;
+  border-radius: 30px;
+  color: grey;
+  font-family: century gothic, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 #myimage {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  top: 0px;
-  left: 1000px;
+position: relative;
+  height: 130px;
+  width: 130px;
+  top: -115px;
+  left: 65%;
 
 }
 
 #twitter {
-  position: absolute;
+position: relative;
+float: left;
   height: 40px;
   width: 40px;
-  left: 50px;
+  left: 55px;
+   top: -90px;
 }
 
 #facebook {
-  position: absolute;
+  float: left;
+position: relative;
   height: 40px;
   width: 40px;
-  left: 100px;
+  left: 55px;
+   top: -90px;
 }
 
 #linkedin {
-  position: absolute;
+  float: left;
+position: relative;
   height: 40px;
   width: 40px;
-  left: 150px;
+  left: 55px;
+   top: -90px;
 }
 
 #github {
-  position: absolute;
+  float: left;
+position: relative;
   height: 40px;
   width: 40px;
-  left: 200px;
+  left: 55px;
+  top: -90px;
 }
 
 h1 {
-  color: white;
-  font-family: sans-serif;
+  color: #25354A;
+  font-family: 'Poiret One', cursive;
   font-size: 50px;
-  margin-left: 10px;
+  text-align: center;
+
 }
 
 h2 {
   margin-top: 200px;
-  font-family: sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
   font-size: 20px;
-  color:black;
+  color: #25354A;
+}
+
+h4 {
+  font-family: 'Hammersmith One', sans-serif;
+  color:#25354A;
 }
 
 #footer {
-  position: relative;
 
-  top: 600px;
-  background-color: limegreen;
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #144955;
+  background-color: white;
   font-family: sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 p {
-  font-size: 14px;
-  font-family: arial;
+  font-size: 16px;
+  font-family: 'Poiret One', cursive;
+  color: black;
+}
+
+a:link {
+  color: #25354A;
 }
