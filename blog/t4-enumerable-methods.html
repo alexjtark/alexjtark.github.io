@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/site-stylesheet.css">
+    </head>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <title> Alex's Website </title>
+
+  <body>
+      <div id ="header"</div>
+<h1> Alex Tarkowski</h1>
+<img id="myimage" src="../images/me1.jpg">
+
+<a href="https://twitter.com/alexjack88">
+<img id="twitter" src="../images/twitterlogo.jpg"></a>
+
+<a href="https://www.facebook.com/atarkowski">
+<img id="facebook" src="../images/facebooklogo.jpg"></a>
+
+<a href="http://ca.linkedin.com/pub/alex-tarkowski/31/3a1/691/">
+<img id="linkedin" src="../images/linkedinlogo.jpeg"></a>
+
+<a href="https://github.com/alexjtark">
+  <img id="github" src="../images/githublogo.jpeg"></a>
+
+
+<div id= "links"> <a href="https://alexjtark.github.io/">Home</a>   About   Projects   Blog   Contact</div>
+
+<div style= "height: 1000px;" id= "pagebody">
+
+<span style="position: relative; top: -150px;"><h2> Technical Blog 3: Enumerable#Group_by</h2>
+
+
+<p> Group_by is a very cool method in Ruby. It essentially allows an argument to be passed into an array, and then organized the information into groups.</p>
+
+<p>Lets say we have an array that contains (dog, cat, mouse, lion, horse, fish). At this point the array is a list of objects with no organization. We can however break this down using group_by. For instance, say we want this list grouped by how long each word is. We would invoke grou_by.length on this list, and it would output some thing like this:</p>
+
+<p>{[3=> dog, cat] , [4=>lion, fish], [5=>mouse, horse]}</p>
+
+<p>As you can see, we have easily grouped the array by length.  This would be quite useful in large lists for example, or arrays where you may want to group a list by first or last name.</p>
+
+<p>We can also invoke group_by on hashes, and here is where we can really see the power of this method.  It works like this:</p>
+
+<p>group_by {|object| block} returns a hash.</p>
+
+<p>When we use this on a hash, we have a greater ability for grouping and it unlocks being able to do so by keys and values. So for example if we have a list of people and also have their ages, we can group them according to either of these. Its pretty powerful stuff when you consider how simply it returns the desired result. </p>
+
+  <p> Thank you for reading!</p>
+</span>
+</div>
+
+<div id= "footer">
+  <h4> 2014 </h4>
+</div>
