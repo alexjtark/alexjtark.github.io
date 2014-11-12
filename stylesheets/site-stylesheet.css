@@ -1,107 +1,144 @@
+
 html {
-  background: #F14C38;
+  /*background: slategrey;*/
+  background: url(../images/birds.jpg);
 
 }
 
 #header {
-
-  background-color: white;
-  width: 80%;
-  height:150px;
+  opacity: 0.9;
+  position: static;
+  background-color: #6ADBD8;
+  background-color: #F0F0F0;
+  width: 81.1%;
+  height:190px;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  border-radius: 30px;
-  border-color: #144955;
-
+  border-width: 1px;
+  border-color: #F0F0F0;
+  box-shadow: 2px 2px 2px grey;
 }
 
-
 #links {
-  position: relative;
-  background-color: white;
-  width: 100%;
+  position: absolute;
+  background-color: #99ECEA;
+  background-color: #C0C0C0;
+  width: 80%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  border-color: #144955;
-  border-radius: 30px;
-  color: #25354A;
-  font-family: 'Hammersmith One', sans-serif;
-  font-size: 30px;
+  border-width: 1px;
+  border-color: #909090 ;
+  color: #FFFFFF;
+  font-family: 'Anton', sans-serif;
+  /*font-family: 'Poiret One', cursive;*/
+  font-size: 32px;
   text-align: center;
-
   vertical-align: middle;
+  padding-top: 2px;
   word-spacing: 25px;
-  margin-top: -95px;
-  margin-bottom: 10px;
+  top: 33%;
+  /*margin-top: -95px;*/
+  margin-bottom: 8px;
+ box-shadow: 2px 2px 2px #909090 ;
 }
 
 #pagebody {
+  position: absolute;
   background-color: white;
-  width: 100%;
-  height: 600px;
-  top:100px;
+  width: 80%;
+  min-height: 100%;
+  height: auto !important;
+  top:45%;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  border-color: #144955;
-  border-radius: 30px;
+  border-color: white;
+  border-width: 1px;
   color: grey;
   font-family: century gothic, sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 10px;
-}
-#myimage {
-position: relative;
-  height: 130px;
-  width: 130px;
-  top: -115px;
-  left: 65%;
+  margin-bottom: 8px;
+  /*box-shadow: 2px 2px 2px #888888;*/
 
+}
+
+#footer {
+  position: fixed;
+  background-color: #4ACEB0;
+  bottom: 0;
+  width: 80%;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4ACEB0;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+#namelogo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 400px;
+  left: 34%;
+  top: 0%;
 }
 
 #twitter {
-position: relative;
+position: fixed;
 float: left;
+  z-index: 999;
   height: 40px;
   width: 40px;
-  left: 55px;
-   top: -90px;
+  right: 11%;
+  bottom: 1%;
+}
+
+#twitter.hover {
+  color: orange;
 }
 
 #facebook {
-  float: left;
-position: relative;
+position: fixed;
+float: left;
+  z-index: 999;
   height: 40px;
   width: 40px;
-  left: 55px;
-   top: -90px;
+  right: 15%;
+  bottom: 1%;
 }
 
 #linkedin {
-  float: left;
-position: relative;
+position: fixed;
+float: left;
+  z-index: 999;
   height: 40px;
   width: 40px;
-  left: 55px;
-   top: -90px;
+  right: 19%;
+  bottom: 1%;
 }
 
 #github {
-  float: left;
-position: relative;
+position: fixed;
+float: left;
+  z-index: 999;
   height: 40px;
   width: 40px;
-  left: 55px;
-  top: -90px;
+  right: 23%;
+  bottom: 1%;
 }
 
 h1 {
   color: #25354A;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 50px;
   text-align: center;
 
@@ -115,35 +152,51 @@ h2 {
 }
 
 h4 {
-  font-family: 'Hammersmith One', sans-serif;
-  color:#25354A;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Poiret One', cursive;
+  color:black;
+  font-size: 22px;
+  font-weight: 400;
 }
 
-#footer {
-
-  display: block;
-  background-color: white;
-  width: 100%;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: #144955;
-  background-color: white;
-  font-family: sans-serif;
-  font-size: 20px;
-  color: black;
+h5 {
+  color: #25354A;
+  font-family: 'Poiret One', cursive;
+  font-size: 28px;
   text-align: center;
-  padding-bottom: 10px;
+
+}
+
+h6 {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 24px;
+  color: black;
 }
 
 p {
-  font-size: 16px;
-  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
   color: black;
 }
 
+big {
+  color: black;
+  font-size: 30px;
+}
+
 a:link {
-  color: #25354A;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #993399;
+  /*background-color: #def ;*/
 }
