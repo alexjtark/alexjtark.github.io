@@ -101,10 +101,13 @@ float: left;
   width: 40px;
   right: 11%;
   bottom: 1%;
+  opacity: 0.8;
 }
 
-#twitter.hover {
-  color: orange;
+#twitter:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
 }
 
 #facebook {
@@ -117,6 +120,11 @@ float: left;
   bottom: 1%;
 }
 
+#facebook:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
 #linkedin {
 position: fixed;
 float: left;
@@ -127,6 +135,12 @@ float: left;
   bottom: 1%;
 }
 
+#linkedin:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
+
 #github {
 position: fixed;
 float: left;
@@ -135,6 +149,12 @@ float: left;
   width: 40px;
   right: 23%;
   bottom: 1%;
+}
+
+#github:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
 }
 
 h1 {
@@ -153,7 +173,6 @@ h2 {
 }
 
 h4 {
-  /*font-family: 'Lato', sans-serif;*/
   font-family: 'Poiret One', cursive;
   color:black;
   font-size: 22px;
@@ -198,5 +217,6 @@ a:visited {
 
 a:hover {
   color: #FFFFFF;
+  font-size: 38px;
   /*background-color: #def ;*/
 }
