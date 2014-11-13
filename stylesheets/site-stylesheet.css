@@ -1,6 +1,5 @@
 
 html {
-  /*background: slategrey;*/
   background: url(../images/birds.jpg);
 
 }
@@ -9,7 +8,7 @@ html {
   opacity: 0.9;
   position: static;
   background-color: #6ADBD8;
-  background-color: #F0F0F0;
+  background-color: #F5F5F5;
   width: 81.1%;
   height:190px;
   margin-left: auto;
@@ -19,6 +18,7 @@ html {
   border-color: #F0F0F0;
   box-shadow: 2px 2px 2px grey;
 }
+
 
 #links {
   position: absolute;
@@ -31,7 +31,7 @@ html {
   border-style: solid;
   border-width: 1px;
   border-color: #909090 ;
-  color: #FFFFFF;
+  color: black;
   font-family: 'Anton', sans-serif;
   /*font-family: 'Poiret One', cursive;*/
   font-size: 32px;
@@ -39,10 +39,11 @@ html {
   vertical-align: middle;
   padding-top: 2px;
   word-spacing: 25px;
-  top: 220px;
-  /*margin-top: -95px;*/
+  top: 210px;
   margin-bottom: 8px;
  box-shadow: 2px 2px 2px #909090 ;
+ text-shadow: 2px 2px #4ACEB0;
+
 }
 
 #pagebody {
@@ -86,10 +87,10 @@ html {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  height: 180px;
-  width: 400px;
-  left: 34%;
-  top: 0%;
+  height: 140px;
+  width: 600px;
+  left: 25%;
+  top: 40px;
 }
 
 #twitter {
@@ -162,9 +163,8 @@ h4 {
 h5 {
   color: #25354A;
   font-family: 'Poiret One', cursive;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
-
 }
 
 h6 {
@@ -186,17 +186,17 @@ big {
 }
 
 a:link {
-  color: #FFFFFF;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: black;
   text-decoration: none;
 
 }
 
 a:hover {
-  color: #993399;
+  color: #FFFFFF;
   /*background-color: #def ;*/
 }
