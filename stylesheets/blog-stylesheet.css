@@ -1,0 +1,32 @@
+html {
+  background-color: #6495ed;
+}
+
+h1 {
+  color: white;
+  font-family: impact;
+  font-size: 70px;
+  word-spacing: 12px;
+  padding-left: 100px;
+}
+h3 {
+ font-family: impact;
+ padding-left: 100px;
+
+}
+hr {
+
+}
+p {font: 12px;
+  font-family: arial;
+  width: 700px;
+  padding-left: 100px;
+  }
+
+  img {
+    position: absolute;
+    padding-left: 300px;
+    width: 200px;
+    height: 200px;
+    }
+

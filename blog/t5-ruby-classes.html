@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/site-stylesheet.css">
+    </head>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <title> Alex's Website </title>
+
+  <body>
+      <div id ="header"</div>
+<h1> Alex Tarkowski</h1>
+<img id="myimage" src="../images/me1.jpg">
+
+<a href="https://twitter.com/alexjack88">
+<img id="twitter" src="../images/twitterlogo.jpg"></a>
+
+<a href="https://www.facebook.com/atarkowski">
+<img id="facebook" src="../images/facebooklogo.jpg"></a>
+
+<a href="http://ca.linkedin.com/pub/alex-tarkowski/31/3a1/691/">
+<img id="linkedin" src="../images/linkedinlogo.jpeg"></a>
+
+<a href="https://github.com/alexjtark">
+  <img id="github" src="../images/githublogo.jpeg"></a>
+
+
+<div id= "links"> <a href="https://alexjtark.github.io/">Home</a>   About   Projects   Blog   Contact</div>
+
+<div style= "height: 1200px;" id= "pagebody">
+
+<span style="position: relative; top: -150px;"><h2> Ruby Classes</h2>
+
+<p>I will be exploring classes in Ruby. When we create a class, we are essentially creating an object with a set of creatable methods that can be initiated with the class object. To a newbie, this may seem a little confusing so lets use a real life example to help put context to this.</p>
+
+<p>An example of this would be if we created a phone class. We would do this by calling “class Phone”. The phone needs to be capitalized so ruby understands it as a class. So now we have created the class, now what? Well from here, we can create actions, or methods, that the phone can do. Let’s say our phone is off. We will want to create a method that turns it on of course! We would do this by calling “def turn_on” for example.  What def means is define, as in define the object “turn_on”.</p>
+
+<p>As it stands right now we have a phone class and a method to turn it on. Combined it looks like so:</p>
+
+<p>Class Phone
+
+  def turn_on
+  @turn_on = turn_on
+   “phone is now on!”
+end
+end
+</p>
+
+<p>We will of course want to write in the commands for turning our phone on, but we are keeping it simple for now. As it stands, we can now turn our phone on. Lets go ahead and do that with by creating a new phone and calling the on object. We do this like so:</p>
+
+<p> newphone = Phone.new
+  Puts newphone.turn_on
+
+==> “phone is now on!”</p>
+
+<p>As you can see, I created a new phone by calling the phone class on my newphone. I had to make sure ruby knows that my new phone belongs to the Phone class, and that was done with the “=”. I then turned my newphone on with the turn_on object, which output the expected result. I was able to call this turn_on object directly because as mentioned, the newphone knows how to respond to the method call since it now belongs to the Phone class.</p>
+
+<p>We want to use classes in programming when we have more complicated actions, or if we want or class to perform many functions, that is. A class is a great way of keeping all the objects that can be called neatly packaged.  If we have more objects, like lets say “ring” we can call this with phone.ring. A class makes an object know where to point to when looking for what to do. </p>
+
+<p>I hope this helps you understand more about classes and how they manipulate objects. To summarize, we create classes when we want to create objects that function explicitly on that class. A class keeps its objects organized. </p>

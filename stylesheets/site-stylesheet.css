@@ -1,0 +1,222 @@
+
+html {
+  background: url(../images/birds.jpg);
+
+}
+
+#header {
+  opacity: 0.9;
+  position: static;
+  background-color: #6ADBD8;
+  background-color: #F5F5F5;
+  width: 81.1%;
+  height:190px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F0F0F0;
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+#links {
+  position: absolute;
+  background-color: #99ECEA;
+  background-color: #C0C0C0;
+  width: 80%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #909090 ;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  /*font-family: 'Poiret One', cursive;*/
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2px;
+  word-spacing: 25px;
+  top: 210px;
+  margin-bottom: 8px;
+ box-shadow: 2px 2px 2px #909090 ;
+ text-shadow: 2px 2px #4ACEB0;
+
+}
+
+#pagebody {
+  position: absolute;
+  background-color: white;
+  width: 80%;
+  min-height: 100%;
+  height: auto !important;
+  top:45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  color: grey;
+  font-family: century gothic, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+  /*box-shadow: 2px 2px 2px #888888;*/
+
+}
+
+#footer {
+  position: fixed;
+  background-color: #4ACEB0;
+  bottom: 0;
+  width: 80%;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4ACEB0;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+#namelogo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  width: 600px;
+  left: 25%;
+  top: 40px;
+}
+
+#twitter {
+position: fixed;
+float: left;
+  z-index: 999;
+  height: 40px;
+  width: 40px;
+  right: 11%;
+  bottom: 1%;
+  opacity: 0.8;
+}
+
+#twitter:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
+
+#facebook {
+position: fixed;
+float: left;
+  z-index: 999;
+  height: 40px;
+  width: 40px;
+  right: 15%;
+  bottom: 1%;
+}
+
+#facebook:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
+#linkedin {
+position: fixed;
+float: left;
+  z-index: 999;
+  height: 40px;
+  width: 40px;
+  right: 19%;
+  bottom: 1%;
+}
+
+#linkedin:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
+
+#github {
+position: fixed;
+float: left;
+  z-index: 999;
+  height: 40px;
+  width: 40px;
+  right: 23%;
+  bottom: 1%;
+}
+
+#github:hover {
+  opacity: 1;
+  height: 45px;
+  width: 45px;
+}
+
+h1 {
+  color: #25354A;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+h2 {
+  margin-top: 200px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20px;
+  color: #25354A;
+}
+
+h4 {
+  font-family: 'Poiret One', cursive;
+  color:black;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h5 {
+  color: #25354A;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+big {
+  color: black;
+  font-size: 30px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #FFFFFF;
+  font-size: 38px;
+  /*background-color: #def ;*/
+}
