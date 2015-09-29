@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-    <title>ALEX TARKOWSKI - Web Developer </title>
+    <!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
+    <title>Alex Tarkowski: web developer. I build apps. </title>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700,900' rel='stylesheet' type='text/css'>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/location.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
     <script src="assets/js/location.js"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/funevents.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,7 +36,7 @@
   <body>
 
     <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar navbar-inverse navbar-static-top" id="nav">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,63 +48,49 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="work.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          	<li><a href="#" onclick="loadPortfolio()">portfolio</a></li>
+          	<li><a href="#" onclick="loadAbout()">about</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-	<!-- +++++ Welcome Section +++++ -->
+	<div class="parallax-window0" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 	<div id="ww">
-	    <div class="container">
+	    <div class="container" id="content">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img class="userimg" src="assets/img/alex.jpg" alt="Stanley">
-					
-					<h1><div id="address"></div><span class="glyphicon glyphicon-plane"></span></h1>
-					<p>I'm Alex Tarkowski, a web developer. I am a graduate of <a href="http://devbootcamp.com"> Dev Bootcamp</a> in New York City where I was given a strong technical education in the foundations of web development which included languages Ruby and Javascript, as well as web frameworks such as Rails and Sinatra</p>
-					<p>I have experience Implementing API's and creating Third party authorizations such as Facebook and Google auth. I have also used geocoding to locate users and nearby services.</p> 
 
-					<p>I am comfortable building out from idea to finished product. I am able to design a database schema, build out well designed associations. I write Object Oriented code, utilize MVC principles to keep duties seperate and keep to writing test driven code.</p>
+
+                <div class="lead-border">
+                <h1>Alex Tarkowski</h1>
+                	<p class="lead">Web Developer</p>
+                </div>
+					
+					<h1><div id="address"></div></h1>
 				
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
 	
-	
-	<!-- +++++ Projects Section +++++ -->
-	
-	<div class="container pt">
-		<div class="row mt centered">	
-			<h1>My Projects</h1>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 
-			<div class="col-lg-4">
-				<a class="zoom green" href="work04.html"><img class="img-responsive" src="assets/img/portfolio/gofishcam.jpg" alt="" /></a>
-				<p>GoFishCam.com</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt="" /></a>
-				<p>StoryVine</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work02.html"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt="" /></a>
-				<p>Beer Overflow</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work03.html"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt="" /></a>
-				<p>Just Breathe!</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
-	
-	<!-- +++++ Footer Section +++++ -->
+		<div id="ww">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 centered">
+						<p>I'm Alex Tarkowski, a web developer. I am a graduate of <a href="http://devbootcamp.com"> Dev Bootcamp</a> in New York City where I was given a strong technical education in the foundations of web development which included languages Ruby and Javascript, as well as web frameworks such as Rails and Sinatra</p>
+						<p>I have experience Implementing API's and creating Third party authorizations such as Facebook and Google auth. I have also used geocoding to locate users and nearby services.</p> 
+
+						<p>I am comfortable building out from idea to finished product. I am able to design a database schema, build out well designed associations. I write Object Oriented code, utilize MVC principles to keep duties seperate and keep to writing test driven code.</p>
+					
+					</div><!-- /col-lg-8 -->
+				</div><!-- /row -->
+		    </div> <!-- /container -->
+		</div><!-- /ww -->
 	
 	<div id="footer">
 		<div class="container">
