@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700,900' rel='stylesheet' type='text/css'>
 
@@ -44,54 +45,141 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Alex Tarkowski</a>
+          <a class="navbar-brand" href="#home">Alex Tarkowski</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
           	<li><a href="#" onclick="loadPortfolio()">portfolio</a></li>
-          	<li><a href="#" onclick="loadAbout()">about</a></li>
+          	<li><a href="#about">about</a></li>
             <li><a href="blog.html">blog</a></li>
             <li><a href="contact.html">contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+	<a name="home"></a>
 	<div class="parallax-window0" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 	<div id="ww">
 	    <div class="container" id="content">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-
-
                 <div class="lead-border">
                 <h1>Alex Tarkowski</h1>
                 	<p class="lead">Web Developer</p>
                 </div>
 					
 					<h1><div id="address"></div></h1>
-				
+
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
 	
+	<a name="about"></a>
 	<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 
 		<div id="ww">
 		    <div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 centered">
+						<h1 class="headlines">about</h1>
 						<p>I'm Alex Tarkowski, a web developer. I am a graduate of <a href="http://devbootcamp.com"> Dev Bootcamp</a> in New York City where I was given a strong technical education in the foundations of web development which included languages Ruby and Javascript, as well as web frameworks such as Rails and Sinatra</p>
 						<p>I have experience Implementing API's and creating Third party authorizations such as Facebook and Google auth. I have also used geocoding to locate users and nearby services.</p> 
 
 						<p>I am comfortable building out from idea to finished product. I am able to design a database schema, build out well designed associations. I write Object Oriented code, utilize MVC principles to keep duties seperate and keep to writing test driven code.</p>
+					<h2>I <span class="glyphicon glyphicon-heart"></span> these languages</h2>
+					<a href="https://www.javascript.com/" title=""><img class="languages" src="assets/img/javascript.png" alt=""></a>
+					<a href="https://www.ruby-lang.org/" title=""><img class="languages" src="assets/img/ruby.png" alt=""></a>
+					<a href="http://www.w3.org/html/" title=""><img class="languages" src="assets/img/HTML5.png" alt=""></a>
+					<a href="http://www.w3.org/Style/CSS/" title=""><img class="languages" src="assets/img/CSS3.png" alt=""></a>
+					</div><!-- /col-lg-8 -->
+				</div><!-- /row -->
+		    </div> <!-- /container -->
+		</div><!-- /ww -->
+
+		<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
+		<div id="ww">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 centered">
+					<h1 class="headlines">work</h1>
+
+						<table>
+							<thead>
+							<tr>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Job Title</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>James</td>
+								<td>Matman</td>
+								<td>Chief Sandwich Eater</td>
+							</tr>
+							<tr>
+								<td>The</td>
+								<td>Tick</td>
+								<td>Crimefighter Sorta</td>
+							</tr>
+							</tbody>
+						</table>
+
+						<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">bla</button> -->
+						<p data-toggle="modal" data-target="#myModal">hello</p>
+
+						<!-- Modal -->
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+						    <!-- Modal content-->
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title">Modal Header</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>Some text in the modal.</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+
+						  </div>
+						</div>
 					
 					</div><!-- /col-lg-8 -->
 				</div><!-- /row -->
 		    </div> <!-- /container -->
 		</div><!-- /ww -->
-	
+
+			<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
+
+			<div id="ww">
+			    <div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 centered">
+						<h1 class="headlines">connect</h1>
+							<p>Wanna work together?</p>
+							<a href="mailto:alex.tarkowki@gmail.com?subject=lets talk" "email me">
+							<div class="contact-me">
+								<p class="lets-talk">lets talk...</p>
+							</div>
+							</a>
+
+							<!-- Modal -->
+						
+						</div><!-- /col-lg-8 -->
+					</div><!-- /row -->
+			    </div> <!-- /container -->
+			</div><!-- /ww -->
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
 	<div id="footer">
 		<div class="container">
 			<div class="row">
