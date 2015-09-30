@@ -336,7 +336,7 @@ div#nav {
 }
 
 .languages {
-  width: 180px;
+  width: 150px;
 }
 
 /*test*/
@@ -344,6 +344,8 @@ div#nav {
 table { 
   width: 100%; 
   border-collapse: collapse; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 /* Zebra striping */
 tr:nth-of-type(odd) { 
