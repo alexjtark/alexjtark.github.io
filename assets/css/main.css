@@ -40,6 +40,7 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 
 .centered {
@@ -85,7 +86,6 @@ a:after {
 
 
 .navbar {
-	text-transform: uppercase;
 	margin-bottom: 0px;
 }
 
@@ -105,6 +105,7 @@ a:after {
 
 .navbar-inverse .navbar-nav > li > a:hover {
 	color: #222222;
+  font-weight: 800;
 }
 
 .navbar-brand {
@@ -114,7 +115,13 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand {
-	color: white;
+	color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: black;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -142,23 +149,19 @@ a:after {
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  background-color: #f2f2f2;
-  /*background-image: url("../img/toronto1.jpg");*/
-  background-repeat: no-repeat;
-  background-size: cover;
+    padding-top: 30px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-#bgimg {
-
-}
 
 
 #footer {
-	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
+    background-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 #footer p {
@@ -167,7 +170,6 @@ a:after {
 
 #footer h4 {
 	color: white;
-	text-transform: uppercase;
 	padding-bottom: 20px;
 }
 
@@ -256,3 +258,166 @@ bt {
   border-color: rgb(166, 171, 166);
   border-width: thick;
 }
+
+
+.navbar-inverse {
+    background-color: #f9f9f9;
+    border-color: #EAEAEA;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.h1, h1 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.lead-border {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 15px 30px 5px 30px;
+}
+
+.navbar > .container .navbar-brand {
+    border: 2px solid;
+}
+
+#fire {
+  display: none
+}
+
+
+div#address {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.lead {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+div#nav {
+    width: 100%;
+}
+
+.parallax-window0 {
+    min-height: 220px;
+    background: transparent;
+}
+
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
+}
+
+.headlines {
+  text-align: center;
+  font-size: 45px;
+}
+
+.contact-me {
+}
+
+.lets-talk {
+  font-size: 30px;
+}
+
+.languages {
+  width: 180px;
+}
+
+/*test*/
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+  white-space: nowrap;
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+.table-title {
+  white-space: nowrap;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  /*
+  Label the data
+  */
+  td:nth-of-type(1):before { content: "Site name"; }
+  td:nth-of-type(2):before { content: "Personal contribution"; }
+  td:nth-of-type(3):before { content: "Technologies"; }
+  td:nth-of-type(4):before { content: "Link"; }
+}
+
+a.table-link {
+    background-color: black;
+    color: white;
+    /* width: 105%; */
+    padding: 3px 12px;
+    border-radius: 4px;
+}
+
+
+

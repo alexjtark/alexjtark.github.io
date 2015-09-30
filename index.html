@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-    <title>ALEX TARKOWSKI - Web Developer </title>
+    <!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
+    <title>Alex Tarkowski: web developer. I build apps. </title>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,700,900' rel='stylesheet' type='text/css'>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/location.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
     <script src="assets/js/location.js"></script>
+    <script src="assets/js/loading.js"></script>
+    <script src="assets/js/funevents.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,7 +37,7 @@
   <body>
 
     <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar navbar-inverse navbar-static-top" id="nav">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,68 +45,134 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Alex Tarkowski</a>
+          <a class="navbar-brand" href="#home">Alex Tarkowski</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="work.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          	<li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-	<!-- +++++ Welcome Section +++++ -->
+	<a name="home"></a>
+	<div class="parallax-window0" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 	<div id="ww">
-	    <div class="container">
+	    <div class="container" id="content">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img class="userimg" src="assets/img/alex.jpg" alt="Stanley">
+                <div class="lead-border">
+                <h1>Alex Tarkowski</h1>
+                	<p class="lead">Web Developer</p>
+                </div>
 					
-					<h1><div id="address"></div><span class="glyphicon glyphicon-plane"></span></h1>
-					<p>I'm Alex Tarkowski, a web developer. I am a graduate of <a href="http://devbootcamp.com"> Dev Bootcamp</a> in New York City where I was given a strong technical education in the foundations of web development which included languages Ruby and Javascript, as well as web frameworks such as Rails and Sinatra</p>
-					<p>I have experience Implementing API's and creating Third party authorizations such as Facebook and Google auth. I have also used geocoding to locate users and nearby services.</p> 
+					<h1><div id="address"></div></h1>
 
-					<p>I am comfortable building out from idea to finished product. I am able to design a database schema, build out well designed associations. I write Object Oriented code, utilize MVC principles to keep duties seperate and keep to writing test driven code.</p>
-				
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
 	
-	
-	<!-- +++++ Projects Section +++++ -->
-	
-	<div class="container pt">
-		<div class="row mt centered">	
-			<h1>My Projects</h1>
+	<a name="about"></a>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
 
-			<div class="col-lg-4">
-				<a class="zoom green" href="work04.html"><img class="img-responsive" src="assets/img/portfolio/gofishcam.jpg" alt="" /></a>
-				<p>GoFishCam.com</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt="" /></a>
-				<p>StoryVine</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work02.html"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt="" /></a>
-				<p>Beer Overflow</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work03.html"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt="" /></a>
-				<p>Just Breathe!</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
-	
-	<!-- +++++ Footer Section +++++ -->
-	
+		<div id="ww">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 centered">
+						<h1 class="headlines">about</h1>
+						<p>I'm Alex Tarkowski, a web developer. I am a graduate of <a href="http://devbootcamp.com"> Dev Bootcamp</a> in New York City where I was given a strong technical education in the foundations of web development which included languages Ruby and Javascript, as well as web frameworks such as Rails and Sinatra</p>
+						<p>I have experience Implementing API's and creating Third party authorizations such as Facebook and Google auth. I have also used geocoding to locate users and nearby services.</p> 
+
+						<p>I am comfortable building out from idea to finished product. I am able to design a database schema, build out well designed associations. I write Object Oriented code, utilize MVC principles to keep duties seperate and keep to writing test driven code.</p>
+					<h2>I speak these languages</h2>
+					<a href="https://www.javascript.com/" title=""><img class="languages" src="assets/img/javascript.png" alt=""></a>
+					<a href="https://www.ruby-lang.org/" title=""><img class="languages" src="assets/img/ruby.png" alt=""></a>
+					<a href="http://www.w3.org/html/" title=""><img class="languages" src="assets/img/HTML5.png" alt=""></a>
+					<a href="http://www.w3.org/Style/CSS/" title=""><img class="languages" src="assets/img/CSS3.png" alt=""></a>
+					</div><!-- /col-lg-8 -->
+				</div><!-- /row -->
+		    </div> <!-- /container -->
+		</div><!-- /ww -->
+
+
+		<a name="work"></a>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
+		<div id="ww">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 centered">
+					<h1 class="headlines">work</h1>
+
+						<table>
+							<thead>
+							<tr>
+								<th>Site Name</th>
+								<th>Personal Contribution</th>
+								<th>Technologies</th>
+								<th>Link</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="table-title">StoryVine</td>
+								<td>Created front page. Set up RESTful routing. Designed database associations.</td>
+								<td>Rails, PostgreSQL, FoundationJS, OnePageJS</td>
+								<td><a class="table-link" href="http://story-vine-app.herokuapp.com/" title="">Visit</a></td>
+							</tr>
+							<tr>
+								<td class="table-title">GoFish Cam</td>
+								<td>Built entire site. Heavy front end customization.</td>
+								<td>Wordpress</td>
+								<td><a class="table-link" href="gofishcam.com" title="">Visit</a></td>
+							</tr>
+							<tr>
+								<td class="table-title">Beer Overflow</td>
+								<td>Database associations. Models, controllers methods</td>
+								<td>Rails, Bootstrap, jQuery</td>
+								<td><a class="table-link" href="http://beer-overflow.herokuapp.com/" title="">Visit</a></td>
+							</tr>
+							<tr>
+								<td class="table-title">fitzBody</td>
+								<td>Design and front end functionality modification</td>
+								<td>Shopify liquid, jQuery</td>
+								<td><a class="table-link" href="fitzbody.com" title="">Visit</a></td>
+							</tr>
+							</tbody>
+						</table>
+
+					
+					</div><!-- /col-lg-8 -->
+				</div><!-- /row -->
+		    </div> <!-- /container -->
+		</div><!-- /ww -->
+
+		<a name="contact"></a>
+			<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
+			<div id="ww">
+			    <div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 centered">
+						<h1 class="headlines">connect</h1>
+							<p>Wanna work together?</p>
+							<a href="mailto:alex.tarkowki@gmail.com?subject=lets talk" "email me">
+							<div class="contact-me">
+								<p class="lets-talk">lets talk...</p>
+							</div>
+							</a>
+
+							<!-- Modal -->
+						
+						</div><!-- /col-lg-8 -->
+					</div><!-- /row -->
+			    </div> <!-- /container -->
+			</div><!-- /ww -->
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/nebula.jpg"></div>
+
 	<div id="footer">
 		<div class="container">
 			<div class="row">
