@@ -149,22 +149,19 @@ a:after {
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-  padding-top: 60px;
-  padding-bottom: 1%;
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
+    padding-top: 30px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-#bgimg {
-
-}
 
 
 #footer {
-	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
+    background-color: #000000;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 #footer p {
@@ -173,7 +170,6 @@ a:after {
 
 #footer h4 {
 	color: white;
-	text-transform: uppercase;
 	padding-bottom: 20px;
 }
 
@@ -287,7 +283,7 @@ bt {
 }
 
 .lead-border {
-    width: 450px;
+    width: 60%;
     margin: 0 auto;
     border: 2px solid;
     padding: 15px 30px 5px 30px;
@@ -357,11 +353,16 @@ th {
   background: #333; 
   color: white; 
   font-weight: bold; 
+  white-space: nowrap;
 }
 td, th { 
   padding: 6px; 
   border: 1px solid #ccc; 
   text-align: left; 
+}
+
+.table-title {
+  white-space: nowrap;
 }
 
 @media 
@@ -404,16 +405,18 @@ only screen and (max-width: 760px),
   /*
   Label the data
   */
-  td:nth-of-type(1):before { content: "First Name"; }
-  td:nth-of-type(2):before { content: "Last Name"; }
-  td:nth-of-type(3):before { content: "Job Title"; }
-  td:nth-of-type(4):before { content: "Favorite Color"; }
-  td:nth-of-type(5):before { content: "Wars of Trek?"; }
-  td:nth-of-type(6):before { content: "Porn Name"; }
-  td:nth-of-type(7):before { content: "Date of Birth"; }
-  td:nth-of-type(8):before { content: "Dream Vacation City"; }
-  td:nth-of-type(9):before { content: "GPA"; }
-  td:nth-of-type(10):before { content: "Arbitrary Data"; }
+  td:nth-of-type(1):before { content: "Site name"; }
+  td:nth-of-type(2):before { content: "Personal contribution"; }
+  td:nth-of-type(3):before { content: "Technologies"; }
+  td:nth-of-type(4):before { content: "Link"; }
+}
+
+a.table-link {
+    background-color: black;
+    color: white;
+    /* width: 105%; */
+    padding: 3px 12px;
+    border-radius: 4px;
 }
 
 
