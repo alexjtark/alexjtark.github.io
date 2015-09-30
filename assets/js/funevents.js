@@ -5,5 +5,5 @@ $(document).ready(function(){
       }
 	});	
 
-
+	$('.lets-talk').hover(function(){$(this).addClass('animated swing');})
 });
