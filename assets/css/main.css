@@ -292,5 +292,8 @@ tbody {
   button.navbar-toggle {
     visibility: hidden;
   }
+  .p-40 {
+    padding: 0px 20px;
+  }
 }
 
