@@ -289,5 +289,8 @@ tbody {
   .forty, .sixty {
     width: 100%;
   }
+  button.navbar-toggle {
+    visibility: hidden;
+  }
 }
 
